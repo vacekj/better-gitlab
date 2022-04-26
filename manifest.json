@@ -1,0 +1,31 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ],
+      "matches": [
+        "https://gabronickwontdiefromcovid.com/*"
+      ]
+    }
+  ],
+  "default_locale": "en",
+  "description": "Make GitLab better",
+  "homepage_url": "https://github.com/vacekj/better-gitlab",
+  "icons": {
+    "128": "icons/icon128.png",
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjJEJUlY3TM4PgnTdQXythOc79AH3Vtn5BlSumf/f+Z80Of7v2MA3B8bo/spdsQXSQrfY+io+QmJ86Od7Ap3l+yN95878SmYnFergR0hFeUEAGUp6vTUf7jnrOjrUaOvN1BqEKi7mH3rhLr5oVErXNV+vZUDn2rY3BLZs74uwItUvRj+p57I8g5oXOk/xtX9yefQmQeWddJH7GpcvR43tdXiKRnz6sEU+68PkFzOadgxIVFbULlqqEVkS6KzH56fShaJfaOnZL3wEWTsk1Gs25vhm10gfDJm+7TtJo/Zyx/UtbBtS+vy1K3xNPdpd2VKJPoQvECQ3eXY+OWYK9yijxQIDAQAB",
+  "manifest_version": 2,
+  "name": "Gitlab simplifier - Chrome extension",
+  "options_page": "src/options/index.html",
+  "permissions": [
+    "https://gabronickwontdiefromcovid.com/*",
+    "storage"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.0.2"
+}
